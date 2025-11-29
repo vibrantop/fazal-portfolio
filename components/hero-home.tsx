@@ -1,66 +1,52 @@
-import VideoThumb from "@/public/images/hero-image-01.jpg";
-import ModalVideo from "@/components/modal-video";
+"use client";
 
 export default function HeroHome() {
   return (
-    <section>
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        {/* Hero content */}
-        <div className="py-12 md:py-20">
-          {/* Section header */}
-          <div className="pb-12 text-center md:pb-20">
-            <h1
-              className="animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,var(--color-gray-200),var(--color-indigo-200),var(--color-gray-50),var(--color-indigo-300),var(--color-gray-200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl"
-              data-aos="fade-up"
-            >
-              AI-driven tools for product teams
-            </h1>
-            <div className="mx-auto max-w-3xl">
-              <p
-                className="mb-8 text-xl text-indigo-200/65"
-                data-aos="fade-up"
-                data-aos-delay={200}
-              >
-                Our landing page template works on all devices, so you only have
-                to set it up once, and get beautiful results forever.
-              </p>
-              <div className="mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center">
-                <div data-aos="fade-up" data-aos-delay={400}>
-                  <a
-                    className="btn group mb-4 w-full bg-linear-to-t from-indigo-600 to-indigo-500 bg-[length:100%_100%] bg-[bottom] text-white shadow-[inset_0px_1px_0px_0px_--theme(--color-white/.16)] hover:bg-[length:100%_150%] sm:mb-0 sm:w-auto"
-                    href="#0"
-                  >
-                    <span className="relative inline-flex items-center">
-                      Start Building
-                      <span className="ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5">
-                        -&gt;
-                      </span>
-                    </span>
-                  </a>
-                </div>
-                <div data-aos="fade-up" data-aos-delay={600}>
-                  <a
-                    className="btn relative w-full bg-linear-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,var(--color-gray-800),var(--color-gray-700),var(--color-gray-800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto"
-                    href="#0"
-                  >
-                    Schedule Demo
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+    <main className="bg-gradient-to-b from-gray-950 via-gray-900 to-gray-950 text-white min-h-screen">
+      {/* ================= UNIQUE TOP BAR ================= */}
+      <header className="fixed top-0 left-0 w-full bg-gray-900/60 backdrop-blur-md z-50 border-b border-gray-800">
+        <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+          {/* Brand / Logo */}
+          <h1 className="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 tracking-wide">
+            Fazal Mohaudin — Portfolio
+          </h1>
 
-          <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={1104}
-            thumbHeight={576}
-            thumbAlt="Modal video thumbnail"
-            video="videos//video.mp4"
-            videoWidth={1920}
-            videoHeight={1080}
-          />
+          {/* Center Glow Line */}
+          <div className="hidden md:block relative w-1/3 h-px bg-gradient-to-r from-transparent via-indigo-500 to-transparent animate-pulse"></div>
+
+          {/* Right Side Info — Unique Animated Orb */}
+          <div className="flex items-center gap-3 text-sm text-gray-300 font-medium">
+            <div className="w-4 h-4 rounded-full bg-cyan-400 shadow-[0_0_12px_rgba(34,211,238,0.8)] animate-ping"></div>
+          </div>
         </div>
-      </div>
-    </section>
+      </header>
+
+      {/* ================= HERO SECTION (UPDATED & RESPONSIVE) ================= */}
+      <section className="relative flex flex-col items-center justify-center min-h-screen px-6 text-center pt-32">
+          {/* Floating Glow Orb */}
+          <div className="absolute top-20 right-10 w-32 h-32 bg-cyan-500/20 blur-3xl rounded-full animate-pulse"></div>
+          <div className="absolute bottom-20 left-10 w-40 h-40 bg-indigo-500/20 blur-3xl rounded-full animate-ping"></div>
+
+          {/* Main Hero Text */}
+          <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-blue-500 to-cyan-400 mb-6 leading-tight drop-shadow-lg">
+            Fazal Mohaudin
+          </h1>
+
+          <h2 className="text-2xl sm:text-3xl md:text-4xl text-indigo-200/90 font-semibold tracking-wide mb-4">
+            Cyber Security Professional
+          </h2>
+
+          <p className="text-lg sm:text-xl md:text-2xl text-indigo-300/80 font-light tracking-wide italic max-w-2xl">
+            Specializing in Security Analysis, Threat Detection, Hardening & Defensive Operations.
+          </p>
+
+          {/* Skill Pills */}
+          <div className="flex flex-wrap justify-center gap-3 mt-8">
+            <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Cyber Security</span>
+            <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Web Development</span>
+            <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Graphic Design</span>
+          </div>
+        </section>
+    </main>
   );
 }
