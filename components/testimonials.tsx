@@ -7,13 +7,13 @@ import TestimonialImg01 from "@/public/images/testimonial-01.jpg";
 import TestimonialImg02 from "@/public/images/testimonial-02.jpg";
 import TestimonialImg03 from "@/public/images/testimonial-03.jpg";
 import TestimonialImg04 from "@/public/images/testimonial-04.jpg";
-import TestimonialImg05 from "@/public/images/testimonial-05.jpg";
-import TestimonialImg06 from "@/public/images/testimonial-06.jpg";
+import TestimonialImg05 from "@/public/images/testimonial-07.jpg";
+import TestimonialImg06 from "@/public/images/testimonial-08.jpg";
 
 const testimonials = [
   {
     img: TestimonialImg01,
-    name: "Ali Raza",
+    name: "Emma Williams",
     company: "CyberSafe Ltd",
     content:
       "Implemented advanced penetration testing and fixed critical vulnerabilities for CyberSafe Ltd, improving their overall digital security.",
@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg02,
-    name: "Sara Khan",
+    name: "ALi Raza",
     company: "WebEdge Studio",
     content:
       "Built fully responsive and secure web platforms, ensuring smooth performance and protection against common security threats.",
@@ -29,7 +29,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg03,
-    name: "Hamza Ahmed",
+    name: "Sofia Khan",
     company: "TechGuard Solutions",
     content:
       "Provided end-to-end cybersecurity solutions including intrusion detection and network hardening, reducing risks significantly.",
@@ -53,7 +53,7 @@ const testimonials = [
   },
   {
     img: TestimonialImg06,
-    name: "Fatima Noor",
+    name: "Lucy Brown",
     company: "PixelCraft Studio",
     content:
       "Provided graphic design services that elevated branding, along with guidance on web security best practices for client projects.",

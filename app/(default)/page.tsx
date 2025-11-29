@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "Home - Open PRO",
-  description: "Page description",
+  title: "Portfolio - Fazal Mohaudin",
+  description: "Showcasing the skills and projects of Fazal Mohaudin in Cybersecurity, Web Development, and Graphic Design.",
 };
 
 import PageIllustration from "@/components/page-illustration";
