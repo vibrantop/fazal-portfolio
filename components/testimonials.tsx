@@ -13,51 +13,45 @@ import TestimonialImg06 from "@/public/images/testimonial-08.jpg";
 const testimonials = [
   {
     img: TestimonialImg01,
-    name: "Emma Williams",
-    company: "CyberSafe Ltd",
-    content:
-      "Implemented advanced penetration testing and fixed critical vulnerabilities for CyberSafe Ltd, improving their overall digital security.",
-    categories: [1],
+    name: "Sarah Mitchell",
+    company: "TechFlow Solutions",
+    content: "Built a complete full-stack LMS platform with React and Firebase in record time. The AI-powered development approach was impressive and delivered beyond expectations.",
+    categories: [1, 4], // 1 = All, 4 = Web Development
   },
   {
     img: TestimonialImg02,
-    name: "ALi Raza",
+    name: "Ali Raza",
     company: "WebEdge Studio",
-    content:
-      "Built fully responsive and secure web platforms, ensuring smooth performance and protection against common security threats.",
-    categories: [1, 3],
+    content: "Developed a fully responsive e-commerce website with modern design, seamless user experience, and lightning-fast performance using Next.js and Tailwind CSS.",
+    categories: [1, 4], // 1 = All, 4 = Web Development
   },
   {
     img: TestimonialImg03,
-    name: "Sofia Khan",
-    company: "TechGuard Solutions",
-    content:
-      "Provided end-to-end cybersecurity solutions including intrusion detection and network hardening, reducing risks significantly.",
-    categories: [1],
+    name: "James Peterson",
+    company: "SecureNet Inc.",
+    content: "Conducted thorough penetration testing and vulnerability assessment for our web applications, identifying and fixing critical security flaws professionally.",
+    categories: [1, 2], // 1 = All, 2 = Cyber Security
   },
   {
     img: TestimonialImg04,
     name: "Hina Shah",
     company: "DesignHive",
-    content:
-      "Delivered creative graphic design work for branding projects, enhancing visual identity while considering secure web practices.",
-    categories: [2, 3],
+    content: "Created stunning visual branding materials including logos, social media graphics, and promotional videos. The creative vision was exactly what we needed.",
+    categories: [1, 3], // 1 = All, 3 = Graphic Design
   },
   {
     img: TestimonialImg05,
     name: "Usman Ali",
-    company: "SecureWeb Co.",
-    content:
-      "Managed DevOps automation pipelines while implementing strong security measures, making deployments faster and more reliable.",
-    categories: [1, 3],
+    company: "CloudBridge Co.",
+    content: "Tested my website for vulnerabilities and provided actionable recommendations to enhance security. Their expertise in cybersecurity is top-notch.",
+    categories: [1, 2], // 1 = All, 2 = Cyber Security, 4 = Web Development
   },
   {
     img: TestimonialImg06,
-    name: "Lucy Brown",
+    name: "Emma Brown",
     company: "PixelCraft Studio",
-    content:
-      "Provided graphic design services that elevated branding, along with guidance on web security best practices for client projects.",
-    categories: [2],
+    content: "Provided exceptional graphic design and video editing services for our marketing campaigns. Adobe expertise and attention to detail made all the difference.",
+    categories: [1, 3], // 1 = All, 3 = Graphic Design
   },
 ];
 

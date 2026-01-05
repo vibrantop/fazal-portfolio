@@ -1,4 +1,4 @@
-// Updated Workflows Section (with cyber-security focused content + skill side tags)
+// Updated Workflows Section (with web development focused content + skill side tags)
 // Hover effects and gradient text movement kept exactly the same
 
 import Image from "next/image";
@@ -35,20 +35,19 @@ export default function Workflows() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            I specialize in penetration testing, digital forensics, vulnerability assessment, and secure architecture — with additional skillsets in web development and graphic design.
+            I specialize in full-stack web development, creative design, and cybersecurity — building modern applications with cutting-edge technologies and AI-powered workflows.
           </p>
         </div>
 
         {/* ====== Additional Skills Tags ====== */}
         <div className="flex flex-wrap justify-center gap-3 mb-12" data-aos="zoom-in">
           {[
-            "Penetration Testing",
-            "Threat Hunting",
-            "Red Teaming",
-            "Vulnerability Assessment",
-            "Network Security",
             "Web Development",
+            "React & Next.js",
+            "Firebase & Supabase",
             "Graphic Design",
+            "Video Editing",
+            "Cyber Security",
           ].map((tag, index) => (
             <span
               key={index}
@@ -67,17 +66,17 @@ export default function Workflows() {
             data-aos="zoom-in"
           >
             <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-linear-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-              <Image src={WorflowImg01} width={350} height={288} alt="Cyber Security" />
+              <Image src={WorflowImg01} width={350} height={288} alt="Web Development" />
               <div className="p-6">
                 <div className="mb-3">
                   <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal">
                     <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Penetration Testing
+                      Full-Stack Development
                     </span>
                   </span>
                 </div>
                 <p className="text-indigo-200/65 text-sm md:text-base leading-relaxed">
-                  Conducting ethical hacking, exploitation, and security audits to identify real-world weaknesses in systems & applications.
+                  Building modern, scalable web applications with React, Next.js, Tailwind CSS, Firebase, and Supabase.
                 </p>
               </div>
             </div>
@@ -90,17 +89,17 @@ export default function Workflows() {
             data-aos-delay="150"
           >
             <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-linear-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-              <Image src={WorflowImg02} width={350} height={288} alt="VAPT" />
+              <Image src={WorflowImg02} width={350} height={288} alt="Graphic Design" />
               <div className="p-6">
                 <div className="mb-3">
                   <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal">
                     <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Vulnerability Assessment
+                      Creative Design & Media
                     </span>
                   </span>
                 </div>
                 <p className="text-indigo-200/65 text-sm md:text-base leading-relaxed">
-                  Detecting, classifying, and prioritizing security vulnerabilities across servers, networks, apps, and cloud systems.
+                  Professional graphic design with Adobe Photoshop, Illustrator, and Canva — plus video editing with Premiere Pro and After Effects for engaging digital content.
                 </p>
               </div>
             </div>
@@ -113,17 +112,17 @@ export default function Workflows() {
             data-aos-delay="300"
           >
             <div className="relative z-20 h-full overflow-hidden rounded-[inherit] bg-gray-950 after:absolute after:inset-0 after:bg-linear-to-br after:from-gray-900/50 after:via-gray-800/25 after:to-gray-900/50">
-              <Image src={WorflowImg03} width={350} height={288} alt="Blue Team & DFIR" />
+              <Image src={WorflowImg03} width={350} height={288} alt="Cyber Security" />
               <div className="p-6">
                 <div className="mb-3">
                   <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal">
                     <span className="bg-linear-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent">
-                      Digital Forensics & Monitoring
+                      Cyber Security & Testing
                     </span>
                   </span>
                 </div>
                 <p className="text-indigo-200/65 text-sm md:text-base leading-relaxed">
-                  Investigating incidents, monitoring threats, and analyzing logs to provide complete cyber defense visibility.
+                  Ethical hacking, penetration testing, and vulnerability assessment using Nmap, BurpSuite, Wireshark, and Metasploit to secure digital infrastructure.
                 </p>
               </div>
             </div>

@@ -33,18 +33,18 @@ export default function HeroHome() {
           </h1>
 
           <h2 className="text-2xl sm:text-3xl md:text-4xl text-indigo-200/90 font-semibold tracking-wide mb-4">
-            Cyber Security Professional
+            Full-Stack Web Developer
           </h2>
 
           <p className="text-lg sm:text-xl md:text-2xl text-indigo-300/80 font-light tracking-wide italic max-w-2xl">
-            Specializing in Security Analysis, Threat Detection, Hardening & Defensive Operations.
+            Building modern web applications with React, Firebase & AI-powered solutions in record time.
           </p>
 
           {/* Skill Pills */}
           <div className="flex flex-wrap justify-center gap-3 mt-8">
-            <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Cyber Security</span>
             <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Web Development</span>
             <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Graphic Design</span>
+            <span className="px-4 py-1 rounded-full bg-indigo-900/40 text-indigo-200 text-sm border border-indigo-500/30 backdrop-blur-md hover:bg-indigo-700/40 transition">Cyber Security</span>
           </div>
         </section>
     </main>
